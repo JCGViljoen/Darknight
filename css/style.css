@@ -1,0 +1,28 @@
+h2{
+    color: beige;
+}
+body{
+    background-image: url(https://i.postimg.cc/QxwXqvCG/a62da743c6f377f1a7b3a63629c567ce.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    width: 2rem;
+    box-shadow: 2, 3, 5;
+}    
+
+h1{
+    color: beige;
+}
+th, td{
+    color: beige;
+}
+
+img{
+    width: fit-content;
+}
+.footer{
+    color: black;
+}
