@@ -1,28 +1,75 @@
-h2{
-    color: beige;
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
-    background-image: url(https://i.postimg.cc/QxwXqvCG/a62da743c6f377f1a7b3a63629c567ce.jpg);
-    background-position: center;
+    /* background-image:url(../Image/bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: contain;
+    background-position: center center;
+    background-color: rgba(246,246,246, .3); */
+    background-image: linear-gradient(to bottom right, rgba(2,34,73,255), rgba(121,1,3,255))
+
 }
-.logo{
-    width: 2rem;
-    box-shadow: 2, 3, 5;
-}    
+
+.batman{
+    font-family: 'Castoro Titling', cursive;
+    margin: 0px;
+    padding: 10xp;
+    background-color: rgba(128, 128, 128, 0.868);
+    border-style: solid;
+    border-width: 20xp;
+}
+
+.Red_Hood{
+    font-family: 'Castoro Titling', cursive;
+    margin: 0px;
+    padding: 10xp;
+    background-color: rgba(128, 128, 128, 0.862);
+    border-style: solid;
+    border-width: 20xp;
+}
+
+.Black_Widow{
+    font-family: 'Castoro Titling', cursive;
+    margin: 0px;
+    padding: 10xp;
+    background-color: rgba(128, 128, 128, 0.871);
+    border-style: solid;
+    border-width: 20xp;
+}
 
 h1{
-    color: beige;
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: gray;
+    text-align: center;
+    border-style:solid;
+    text-decoration: underline;
+  }
+
+h2{
+    margin: 10px;
+    padding: 10xp;
+    text-decoration: underline;
 }
-th, td{
-    color: beige;
+img{
+    margin: 10px;
+    padding: 10xp;
+    border-style: solid;
+}
+a{
+    margin: 10px;
+    padding: 10xp;
+    color: black;
 }
 
-img{
-    width: fit-content;
-}
-.footer{
-    color: black;
+div, footer{
+border-style: solid;
+background-color: gray;
+text-align: center;
 }
