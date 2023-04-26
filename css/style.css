@@ -1,28 +1,39 @@
-h2{
-    color: beige;
-}
+
+
 body{
-    background-image: url(https://i.postimg.cc/QxwXqvCG/a62da743c6f377f1a7b3a63629c567ce.jpg);
+  
+    background-image: url(https://i.postimg.cc/MGq9QZdY/Two-Awesome-Free-Batman-Printables-Every-Little-Boy-Needs.png)  ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.logo{
-    width: 2rem;
-    box-shadow: 2, 3, 5;
-}    
-
-h1{
-    color: beige;
-}
-th, td{
-    color: beige;
-}
-
-img{
-    width: fit-content;
-}
-.footer{
-    color: black;
-}
+    background-size: cover; 
+    color:black;
+  }
+ p{
+   text-align:center
+ }
+ 
+ .header{
+   text-align:center;
+ }
+ .heading{
+   color:yellow;
+ }
+ 
+ .logo{
+   width: 2rem;
+   box-shadow: 2, 3, 5;
+ }    
+ 
+ h1{
+   color: beige;
+ }
+ th, td{
+   color: beige;
+ }
+ 
+ img{
+   width: fit-content;
+ }
+ .footer{
+   color: black;
+ }
